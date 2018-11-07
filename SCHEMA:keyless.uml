@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>e65acba5-f076-442c-9e15-ae85dd14f421.SCHEMA:keyless</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.user</node>
+    <node x="29.729166666666686" y="202.0">e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock_has_user</node>
+    <node x="249.60416666666669" y="202.0">e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.user_has_group</node>
+    <node x="482.2708333333333" y="202.0">e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock_has_group</node>
+    <node x="229.0" y="12.0">e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock</node>
+    <node x="459.77083333333337" y="24.0">e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.group</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock_has_user" target="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.user">
+      <point x="-33.0" y="-39.5" />
+      <point x="62.729166666666686" y="182.0" />
+      <point x="52.25" y="182.0" />
+      <point x="-52.25" y="76.0" />
+    </edge>
+    <edge source="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.user_has_group" target="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.user">
+      <point x="-35.75" y="-39.5" />
+      <point x="285.3541666666667" y="172.0" />
+      <point x="156.75" y="172.0" />
+      <point x="52.25" y="76.0" />
+    </edge>
+    <edge source="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock_has_user" target="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock">
+      <point x="33.0" y="-39.5" />
+      <point x="128.72916666666669" y="182.0" />
+      <point x="280.75" y="182.0" />
+      <point x="-51.75" y="64.0" />
+    </edge>
+    <edge source="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock_has_group" target="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock">
+      <point x="-35.75" y="-39.5" />
+      <point x="518.0208333333333" y="172.0" />
+      <point x="384.25" y="172.0" />
+      <point x="51.75" y="64.0" />
+    </edge>
+    <edge source="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.lock_has_group" target="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.group">
+      <point x="35.75" y="-39.5" />
+      <point x="43.25" y="52.0" />
+    </edge>
+    <edge source="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.user_has_group" target="e65acba5-f076-442c-9e15-ae85dd14f421.TABLE:keyless.group">
+      <point x="35.75" y="-39.5" />
+      <point x="356.8541666666667" y="182.0" />
+      <point x="503.02083333333337" y="182.0" />
+      <point x="-43.25" y="52.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="318.5" y="140.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+  </Categories>
+</Diagram>
+
